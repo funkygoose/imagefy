@@ -13,7 +13,7 @@ import { SignedIn, UserButton } from '@clerk/nextjs'
 
 const MobileNav = () => {
     return (
-        <header>
+        <header className="header">
             <Link href="/" className="flex items-center gap-2 md-py-2">
                 <Image src="/assets/images/logo-text.svg"
                     alt='logo'
